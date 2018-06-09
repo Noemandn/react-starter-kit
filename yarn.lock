@@ -53,6 +53,12 @@
   dependencies:
     "@babel/types" "7.0.0-beta.39"
 
+"@babel/helper-annotate-as-pure@7.0.0-beta.49":
+  version "7.0.0-beta.49"
+  resolved "https://registry.yarnpkg.com/@babel/helper-annotate-as-pure/-/helper-annotate-as-pure-7.0.0-beta.49.tgz#7d9005d54fe7ad6cb876790251e75575419186e9"
+  dependencies:
+    "@babel/types" "7.0.0-beta.49"
+
 "@babel/helper-builder-binary-assignment-operator-visitor@7.0.0-beta.39":
   version "7.0.0-beta.39"
   resolved "https://registry.yarnpkg.com/@babel/helper-builder-binary-assignment-operator-visitor/-/helper-builder-binary-assignment-operator-visitor-7.0.0-beta.39.tgz#ce97bd572aeb2b2c1200c7a49dba019659a95f3c"
@@ -146,6 +152,10 @@
   resolved "https://registry.yarnpkg.com/@babel/helper-optimise-call-expression/-/helper-optimise-call-expression-7.0.0-beta.39.tgz#2f2c76665fb9128feb0b84a162b3dcaecc53a102"
   dependencies:
     "@babel/types" "7.0.0-beta.39"
+
+"@babel/helper-plugin-utils@7.0.0-beta.49":
+  version "7.0.0-beta.49"
+  resolved "https://registry.yarnpkg.com/@babel/helper-plugin-utils/-/helper-plugin-utils-7.0.0-beta.49.tgz#0e9fcbb834f878bb365d2a8ea90eee21ba3ccd23"
 
 "@babel/helper-regex@7.0.0-beta.39":
   version "7.0.0-beta.39"
@@ -434,9 +444,12 @@
     "@babel/helper-call-delegate" "7.0.0-beta.39"
     "@babel/helper-get-function-arity" "7.0.0-beta.39"
 
-"@babel/plugin-transform-react-constant-elements@7.0.0-beta.39":
-  version "7.0.0-beta.39"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-react-constant-elements/-/plugin-transform-react-constant-elements-7.0.0-beta.39.tgz#29b806972aa4a25046c30dd73f046905d6e4c63d"
+"@babel/plugin-transform-react-constant-elements@7.0.0-beta.49":
+  version "7.0.0-beta.49"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-react-constant-elements/-/plugin-transform-react-constant-elements-7.0.0-beta.49.tgz#79fbfa9f5ce669a83e2f00d9d46d0639e72b3ad1"
+  dependencies:
+    "@babel/helper-annotate-as-pure" "7.0.0-beta.49"
+    "@babel/helper-plugin-utils" "7.0.0-beta.49"
 
 "@babel/plugin-transform-react-display-name@7.0.0-beta.39":
   version "7.0.0-beta.39"
@@ -662,6 +675,14 @@
   dependencies:
     esutils "^2.0.2"
     lodash "^4.2.0"
+    to-fast-properties "^2.0.0"
+
+"@babel/types@7.0.0-beta.49":
+  version "7.0.0-beta.49"
+  resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.0.0-beta.49.tgz#b7e3b1c3f4d4cfe11bdf8c89f1efd5e1617b87a6"
+  dependencies:
+    esutils "^2.0.2"
+    lodash "^4.17.5"
     to-fast-properties "^2.0.0"
 
 "@types/geojson@^1.0.0":
@@ -5340,6 +5361,10 @@ lodash@^3.10.1:
 lodash@^4.13.1, lodash@^4.14.0, lodash@^4.15.0, lodash@^4.17.1, lodash@^4.17.2, lodash@^4.17.4, lodash@^4.2.0, lodash@^4.3.0:
   version "4.17.5"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.5.tgz#99a92d65c0272debe8c96b6057bc8fbfa3bed511"
+
+lodash@^4.17.5:
+  version "4.17.10"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.10.tgz#1b7793cf7259ea38fb3661d4d38b3260af8ae4e7"
 
 log-symbols@^1.0.2:
   version "1.0.2"
