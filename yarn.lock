@@ -147,6 +147,10 @@
   dependencies:
     "@babel/types" "7.0.0-beta.39"
 
+"@babel/helper-plugin-utils@^7.13.0":
+  version "7.13.0"
+  resolved "https://registry.yarnpkg.com/@babel/helper-plugin-utils/-/helper-plugin-utils-7.13.0.tgz#806526ce125aed03373bc416a828321e3a6a33af"
+
 "@babel/helper-regex@7.0.0-beta.39":
   version "7.0.0-beta.39"
   resolved "https://registry.yarnpkg.com/@babel/helper-regex/-/helper-regex-7.0.0-beta.39.tgz#852d94c0eedcf1d9b8513cda01f18c4838592c41"
@@ -434,9 +438,11 @@
     "@babel/helper-call-delegate" "7.0.0-beta.39"
     "@babel/helper-get-function-arity" "7.0.0-beta.39"
 
-"@babel/plugin-transform-react-constant-elements@7.0.0-beta.39":
-  version "7.0.0-beta.39"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-react-constant-elements/-/plugin-transform-react-constant-elements-7.0.0-beta.39.tgz#29b806972aa4a25046c30dd73f046905d6e4c63d"
+"@babel/plugin-transform-react-constant-elements@7.13.10":
+  version "7.13.10"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-react-constant-elements/-/plugin-transform-react-constant-elements-7.13.10.tgz#5d3de8a8ee53f4612e728f4f17b8c9125f8019e5"
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.13.0"
 
 "@babel/plugin-transform-react-display-name@7.0.0-beta.39":
   version "7.0.0-beta.39"
